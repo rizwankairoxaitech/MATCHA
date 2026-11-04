@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Matcha site reel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Caveat:wght@600&family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@700;800&display=block" rel="stylesheet">
+<link rel="stylesheet" href="./reel.css">
+</head>
+<body>
+<div id="stage">
+
+  <!-- 1 · Hook: the finished site, then zoom out into a phone -->
+  <section class="scene" id="hook">
+    <div class="ring hook-ring"></div>
+    <div class="stat st1"><b>3D</b><small>product</small></div>
+    <div class="stat st2"><b>0</b><small>lines of code</small></div>
+    <div class="stat st3"><b>1</b><small>prompt to start</small></div>
+    <div class="phone"><img class="foot" id="footHook" alt=""></div>
+  </section>
+
+  <!-- 2 · "3 simple steps" -->
+  <section class="scene forest" id="steps">
+    <svg class="squiggle" viewBox="0 0 1000 700" aria-hidden="true"><path d="M110 660C-70 460 105 160 360 145C675 129 910 470 745 610C622 715 359 454 480 277C606 91 890 130 1030 7" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/></svg>
+    <div class="s3-kicker">here&#8217;s how</div>
+    <div class="s3-num">3</div>
+    <div class="s3-word s3-a">simple</div>
+    <div class="s3-word s3-b"><em>steps</em></div>
+    <div class="s3-note">zero code. promise.<svg viewBox="0 0 300 40" aria-hidden="true"><path d="M4 26C70 10 160 8 296 22" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></div>
+  </section>
+
+  <!-- 3 · Claude walkthrough -->
+  <section class="scene" id="studio">
+    <div class="ring studio-ring"></div>
+    <div class="tub deco-tub"></div>
+    <div class="pill" id="p1">STEP 01</div>
+    <div class="pill" id="p2">STEP 02</div>
+    <div class="pill" id="p3">STEP 03</div>
+    <div class="pill" id="p4">THEN</div>
+    <div class="browser claude" id="claudeWin">
+      <div class="chrome"><i></i><i></i><i></i>
+        <div class="url"><svg viewBox="0 0 16 18" width="15" height="17"><rect x="1.5" y="8" width="13" height="9" rx="2.5" fill="#8f8a7b"/><path d="M4.5 8V5.5a3.5 3.5 0 0 1 7 0V8" fill="none" stroke="#8f8a7b" stroke-width="2"/></svg><span id="urlText"></span></div>
+      </div>
+      <div class="cbody">
+        <aside class="side"><b></b><b></b><b></b><b></b><b></b></aside>
+        <div class="home" id="home">
+          <div class="greet"><svg class="spark" viewBox="0 0 48 48"><path d="M24 5v14M24 29v14M5 24h14M29 24h14M10.6 10.6l9.9 9.9M27.5 27.5l9.9 9.9M37.4 10.6l-9.9 9.9M20.5 27.5l-9.9 9.9" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/></svg><span>What are we building today?</span></div>
+          <div class="input" id="input">
+            <div class="ptext"><span class="placeholder" id="ph">Describe the site you want&#8230;</span><span id="promptText"></span><span class="tcaret" id="tcaret"></span></div>
+            <div class="atts">
+              <div class="att"><img src="/more-logo-original.svg" alt=""><span>logo.svg</span></div>
+              <div class="att"><img src="/more-original.webp" alt=""><span>tub.png</span></div>
+              <div class="att"><img src="/more-strawberry.webp" alt=""><span>berry.png</span></div>
+              <div class="att"><img src="/more-vanilla.webp" alt=""><span>vanilla.png</span></div>
+              <div class="att"><img src="/strawberry-cutout.webp" alt=""><span>fruit.png</span></div>
+              <div class="att"><img src="/vanilla-biscuit-cutout.webp" alt=""><span>cookie.png</span></div>
+              <div class="att vid"><img src="/reel-footage/fix/ref.jpg" alt=""><i class="play"></i><span>ref.mp4</span></div>
+            </div>
+            <div class="tools"><span class="plus" id="plusBtn">+</span><span class="model">Claude <small>&#9662;</small></span><span class="send" id="sendBtn"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          </div>
+        </div>
+        <div class="chat" id="chat">
+          <div class="umsg" id="umsg">
+            <div class="mini"><img src="/more-logo-original.svg" alt=""><img src="/more-original.webp" alt=""><img src="/more-strawberry.webp" alt=""><img src="/more-vanilla.webp" alt=""><img src="/strawberry-cutout.webp" alt=""><img src="/reel-footage/fix/ref.jpg" alt="" class="cover"></div>
+            <p>Build an animated landing page for my matcha protein latte. A logo that draws itself in, a 3D tub that spins as you scroll&#8230;</p>
+          </div>
+          <div class="cmsg" id="cmsg">
+            <svg class="spark" viewBox="0 0 48 48"><path d="M24 5v14M24 29v14M5 24h14M29 24h14M10.6 10.6l9.9 9.9M27.5 27.5l9.9 9.9M37.4 10.6l-9.9 9.9M20.5 27.5l-9.9 9.9" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/></svg>
+            <div class="cwrap">
+              <p class="reply" id="replyText"></p>
+              <ul class="checks">
+                <li><i><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="#f3f4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Logo draw-on intro</li>
+                <li><i><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="#f3f4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>3D tub that rotates on scroll</li>
+                <li><i><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="#f3f4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Curved &#8220;It&#8217;s a match(a)&#8221; ribbon</li>
+                <li><i><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="#f3f4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Benefit cards + flavour reveal</li>
+                <li><i><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9" fill="none" stroke="#f3f4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Responsive on every screen</li>
+              </ul>
+              <div class="preview" id="preview"><div class="pv-thumb"><img src="/reel-footage/desktop/f_0100.jpg" alt=""></div><div><b>matcha-landing</b><small>Interactive site &#183; ready</small></div><span class="open" id="openBtn">Open &#8599;</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · Payoff: the real site -->
+  <section class="scene" id="payoff">
+    <div class="ring payoff-ring"></div>
+    <div class="browser site" id="siteWin">
+      <div class="chrome"><i></i><i></i><i></i><div class="url"><span>yourbrand.com</span></div></div>
+      <img class="foot" id="footSite" alt="">
+    </div>
+    <div class="chips"><span>3D product</span><span>scroll motion</span><span>on-brand colours</span></div>
+    <div class="note payoff-note">built with Claude &#8599;</div>
+  </section>
+
+  <!-- 5 · Mobile -->
+  <section class="scene" id="mobile"><img class="foot full" id="footMobile" alt=""></section>
+
+  <!-- 6 · Fix it by asking -->
+  <section class="scene" id="fix">
+    <div class="browser site" id="fixWin">
+      <div class="chrome"><i></i><i></i><i></i><div class="url"><span>yourbrand.com</span></div></div>
+      <div class="ba"><img src="/reel-footage/fix/before.png" alt=""><img class="after" src="/reel-footage/fix/after.png" alt=""><i class="wipe"></i><span class="tag tb">before</span><span class="tag ta">after</span></div>
+    </div>
+    <div class="bubble u" id="fixU">the tub is covering the ribbon, can you fix it?</div>
+    <div class="bubble c" id="fixC"><svg class="spark" viewBox="0 0 48 48"><path d="M24 5v14M24 29v14M5 24h14M29 24h14M10.6 10.6l9.9 9.9M27.5 27.5l9.9 9.9M37.4 10.6l-9.9 9.9M20.5 27.5l-9.9 9.9" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/></svg>Fixed. The ribbon now sits in front.</div>
+  </section>
+
+  <!-- 7 · Call to action -->
+  <section class="scene" id="cta">
+    <div class="ring cta-ring"></div>
+    <div class="tub cta-tub"></div>
+    <div class="cta-1">Comment</div>
+    <div class="cta-pill">MATCHA</div>
+    <div class="cta-2">&amp; I&#8217;ll send you</div>
+    <div class="cta-3">the <em>prompt</em></div>
+    <div class="note cta-note">it&#8217;s free &#8600;</div>
+  </section>
+
+  <div id="caps"></div>
+  <svg class="cursor" id="cursor" viewBox="0 0 32 40" width="48" height="60"><path d="M4 2v28l7-7 5 12 5-2-5-12h10z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/></svg>
+  <i class="ripple" id="ripple"></i>
+</div>
+<script type="module" src="./reel.js"></script>
+</body>
+</html>

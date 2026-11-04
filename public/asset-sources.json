@@ -1,0 +1,66 @@
+[
+  {
+    "name": "original",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/More_Protein_Iced_Matcha_Latte_Original_Taste_500g_4096x4096-jRj3hRuR_1fdcc9dd-8bc5-4d44-aca5-0ca0504ff7f4.png?v=1782808761"
+  },
+  {
+    "name": "strawberry",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/More_Protein_Iced_Matcha_Latte_Strawberry_Cheesecake_500g_4096x4096-6kOkx_fD_0920366d-b738-4c8f-a732-76e480c853bb.png?v=1766144000"
+  },
+  {
+    "name": "vanilla",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/More_Protein_Iced_Matcha_Latte_Vanilla_Crumble_500g_4096x4096-B88Lzx86_9e1bce14-0229-4f00-b23a-0ba6c9d0016c.png?v=1791381620"
+  },
+  {
+    "name": "sachet",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/Protein_Iced_Matcha_Latte_25g_Original_Taste_4096x4096-qHWDUZ3j_60d7eade-7e8b-484a-86f8-c8e6c0d2e433.png?v=1782723318"
+  },
+  {
+    "name": "chunky-strawberry",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/Chunky_Flavour_Strawberry_Perfection_150g_2048x2048-jab00ai_50f6386c-c2df-46e0-b436-6eec284a338f.png?v=1780649799"
+  },
+  {
+    "name": "chunky-vanilla",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/Chunky_Flavour_Vanilla_Perfection_150g_2048x2048_1-ui96xyZ2_1711889b-98c2-4b5e-a253-74ca2e420960.png?v=1780648962"
+  },
+  {
+    "name": "chunky-strawberry-sachet",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/more_CF_Probe_Strawberry_Perfection-2EwBVflv_3b62b145-b1e8-4c0a-9f35-e25c13a6e177.png?v=1782395812"
+  },
+  {
+    "name": "chunky-vanilla-sachet",
+    "source": "https://cdn.shopify.com/s/files/1/0503/7536/0676/files/more_CF_Probe_Vanilla_Perfection-DM0Xpify_4a25a3d2-4e26-4cd1-ae0e-a09de85d5549.png?v=1780643351"
+  },
+  {
+    "name": "original brand wordmark",
+    "source": "https://morenutrition.de/cdn/shop/files/Red_More_Logo_RGB_cropped.svg?v=1788274089"
+  },
+  {
+    "name": "payment-american_express",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/american_express-2bdbf0e2.svg"
+  },
+  {
+    "name": "payment-apple_pay",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/apple_pay-1721ebad.svg"
+  },
+  {
+    "name": "payment-google_pay",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/google_pay-34c30515.svg"
+  },
+  {
+    "name": "payment-klarna",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/klarna-637a076e.svg"
+  },
+  {
+    "name": "payment-master",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/master-f5a74105.svg"
+  },
+  {
+    "name": "payment-paypal",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/paypal-a7c68b85.svg"
+  },
+  {
+    "name": "payment-visa",
+    "source": "https://morenutrition.de/cdn/shopifycloud/storefront/assets/payment_icons/visa-b614b878.svg"
+  }
+]

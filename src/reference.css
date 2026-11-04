@@ -1,0 +1,181 @@
+.packshot { position: relative; overflow: hidden; }
+.packshot > img { position: absolute; max-width: none; object-fit: fill; }
+.ritual { padding-bottom: 100px; }
+.ritual-content { grid-template-columns: 53% 47%; max-width: 1440px; padding: 100px 6% 70px 0; gap: 0; }
+.photo-stack { height: 520px; }
+.photo-stack figure { padding: 7px; box-shadow: none; }
+.photo-stack img { height: 100%; }
+.photo-one { left: -10%; top: 65px; width: 43%; height: 430px; transform: rotate(-11deg); }
+.photo-two { left: 19%; top: 150px; width: 43%; height: 420px; transform: rotate(-3deg); }
+.photo-three { left: 42%; top: 0; width: 48%; height: 460px; transform: rotate(4deg); }
+.ritual-copy { max-width: 390px; margin-left: 8%; align-self: start; padding-top: 35px; }
+.ritual-copy .community-lead { font-family: var(--font-heading); font-size: 29px; font-weight: 500; line-height: 1.12; letter-spacing: -.025em; margin-bottom: 22px; }
+.ritual-copy > p:not(.community-lead) { font-family: var(--font-heading); font-size: 19px; line-height: 1.2; margin-bottom: 28px; }
+.community-actions { display: flex; gap: 22px; align-items: center; }
+.community-actions > a { display: flex; align-items: center; gap: 8px; }
+.community-actions > a > span { font-size: 12px; letter-spacing: 1px; }
+.community-actions small { font-size: 8px; text-decoration: underline; }
+.ritual-sign { position: relative; display: block; margin: 140px 35px 0 0; text-align: right; font-size: 24px; }
+.ritual-sign > span { display: block; font-size: 43px; margin-right: 38px; }
+
+.benefits-scroll { height: 480svh; }
+.benefits-stage { min-height: 0; }
+.stage-index, .stage-footer { display: none; }
+.benefit-orbit { width: 125%; height: 130%; left: -15%; top: -8%; }
+.benefit-orbit path { stroke-width: 12px; }
+.benefit-panel { width: 38%; min-height: 335px; padding: 42px 24px 30px; top: 0; bottom: auto; }
+.benefit-panel > .eyebrow { display: none; }
+.benefit-panel h2 { font-size: clamp(53px, 4.8vw, 77px); line-height: .9; }
+.benefit-panel p { font-family: var(--font-heading); font-size: 22px; line-height: 1.1; margin-top: 28px; }
+.benefit-one, .benefit-three { right: 3.5%; left: auto; }
+.benefit-two, .benefit-four { left: 3.5%; right: auto; }
+.benefit-panel .handwritten { bottom: -50px; font-size: 24px; }
+.benefit-finale { top: 16%; z-index: 2; }
+.benefit-finale h2 { font-size: clamp(60px, 6vw, 91px); line-height: .97; margin: 0; }
+.flavor-preview { position: absolute; inset: 0; opacity: 0; visibility: hidden; pointer-events: none; }
+.flavor-preview h3 { position: absolute; top: 36%; left: 0; width: 100%; text-align: center; font-family: var(--font-heading); font-size: clamp(53px, 5vw, 78px); color: #9aae7c; font-weight: 600; line-height: 1; letter-spacing: -.04em; }
+.preview-ingredients { position: absolute; width: 118%; height: 65%; left: -9%; top: 37%; object-fit: contain; }
+.preview-vanilla, .preview-strawberry { position: absolute; top: 59%; font-size: 25px; }
+.preview-vanilla { left: 16%; }
+.preview-strawberry { right: 15%; }
+.preview-vanilla > span, .preview-strawberry > span { display: block; margin-top: 7px; font-size: 44px; }
+.preview-cutout { position: absolute; object-fit: contain; height: auto; }
+.preview-cookie-large { width: 220px; left: -80px; top: 47%; transform: rotate(-22deg); }
+.preview-cookie-small { width: 100px; left: 21%; top: 73%; transform: rotate(12deg); }
+.preview-berry-small { width: 115px; right: 23%; top: 54%; transform: rotate(12deg); }
+.preview-berry-large { width: 250px; right: -100px; top: 68%; transform: rotate(-10deg); }
+
+.comparison { grid-template-columns: 44% 56%; min-height: 790px; background: #fbfcf5; }
+.ingredient-photo { background: #dfe7da; }
+.ingredient-photo > .handwritten, .ingredient-icon { display: none; }
+.comparison-content { padding: 75px 11%; }
+.comparison-content > .eyebrow { display: none; }
+.comparison-content h2 { font-size: 59px; line-height: 1; margin: 0 0 55px; }
+.comparison-content h2 > span { color: #9aae7c; }
+.comparison-table { font-family: var(--font-heading); font-size: 18px; }
+.comparison-table thead th { font-size: 12px; }
+.comparison-table tbody th, .comparison-table td { padding: 12px 0; }
+.comparison-table td:nth-child(3) { font-size: inherit; }
+.comparison-table td svg { margin-inline: auto; }
+.comparison-table th:first-child { width: 55%; }
+.comparison-table th:nth-child(2) { width: 23%; }
+.comparison-table th:nth-child(3) { width: 22%; }
+.product-note { font-size: 8px; margin-top: 22px; }
+
+.reviews { min-height: 1150px; }
+.reviews-background { object-position: center 50%; }
+.reviews-shade { background: linear-gradient(180deg,#1827190d,#18271915 55%,#1827198c); }
+.reviews-content { padding: 85px 0 55px; display: flex; flex-direction: column; align-items: center; }
+.reviews-content > .handwritten { order: 0; }
+.reviews h2 { order: 1; font-size: clamp(85px,9vw,135px); font-weight: 500; line-height: .9; margin: 18px 0 0; }
+.reviews-label { display: none; }
+.reviews-secondary { order: 2; font-family: var(--font-heading); font-size: 31px; font-weight: 700; line-height: .94; letter-spacing: -.02em; margin: 280px 0 18px; }
+.review-controls { order: 3; gap: 10px; }
+.review-count { display: none; }
+.reviews .circle-button { background: var(--white); color: var(--forest); border: 0; }
+.review-cards { order: 4; width: calc(100% + 160px); max-width: none; margin: 30px -80px 0; padding: 0; gap: 18px; }
+.review-card { width: auto; flex: 0 0 calc((100% - 54px)/4); min-height: 250px; transform: none; background: #2534201a; padding: 28px; }
+.review-card.active { transform: none; background: var(--white); }
+.review-card blockquote { font-family: var(--font-heading); font-size: 22px; line-height: 1.2; }
+.review-card > div { flex-direction: row; align-items: center; justify-content: space-between; }
+.review-card small { font-size: 8px; }
+.review-card { animation: review-slide .4s ease-out; }
+@keyframes review-slide { from { opacity: .7; transform: translateX(25px); } to { opacity: 1; transform: none; } }
+
+.chunky-section { min-height: 1080px; padding: 65px 4% 65px; background: var(--mint); overflow: hidden; }
+.chunky-heading { text-align: center; }
+.chunky-heading > h2 { font-size: clamp(85px,10vw,155px); line-height: 1; font-weight: 500; letter-spacing: -.04em; }
+.chunky-heading > h3 { font-family: var(--font-heading); font-size: 36px; font-weight: 500; color: #9aae7c; letter-spacing: -.035em; margin-top: 20px; }
+.chunky-heading > p { font-family: var(--font-heading); font-size: 19px; line-height: 1.15; margin-top: 20px; }
+.chunky-composition { height: 650px; position: relative; max-width: 1450px; margin: 30px auto 0; }
+.chunky-note { position: absolute; left: 3%; top: 15px; font-size: 25px; transform: rotate(-6deg); }
+.chunky-note > span { display: block; font-size: 48px; text-align: right; }
+.chunky-matcha { position: absolute; width: 34%; height: 470px; left: 5%; top: 105px; }
+.matcha-main { position: absolute; width: 53%; right: 0; top: 0; transform: rotate(12deg); }
+.matcha-sachet { position: absolute; width: 46%; }
+.sachet-left { left: 0; top: 75px; transform: rotate(-19deg); }
+.sachet-middle { left: 20%; top: 40px; transform: rotate(-7deg); }
+.chunky-pair { position: absolute; width: 34%; height: 390px; right: 4%; top: 140px; animation: flavor-in .65s ease-out; }
+.chunky-main { position: absolute; width: 88%; left: 0; top: 100px; transform: rotate(-6deg); }
+.chunky-sachet { position: absolute; width: 65%; }
+.chunky-sachet-one { right: -3%; top: -5px; transform: rotate(15deg); }
+.chunky-sachet-two { right: 15%; top: 17px; transform: rotate(31deg); }
+.chunky-plus { position: absolute; top: 245px; left: 48.5%; font-size: 85px; color: var(--white); font-weight: 400; }
+.chunky-choice { position: absolute; width: 320px; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; }
+.chunky-choice > span:first-child { font-size: 10px; opacity: .55; }
+.chunky-choice h3 { font-family: var(--font-heading); font-size: 36px; font-weight: 600; line-height: .95; letter-spacing: -.025em; margin: 10px 0 20px; }
+.chunky-price { display: block; font-size: 9px; margin-top: 13px; }
+.chunky-controls { position: absolute; right: 9%; bottom: 85px; display: flex; gap: 12px; }
+.chunky-controls .circle-button { width: 45px; height: 45px; }
+.chunky-swatches { position: absolute; right: 10%; bottom: 35px; display: flex; gap: 12px; }
+.chunky-swatches button { width: 18px; height: 18px; border-radius: 50%; border: 3px solid var(--mint); }
+.chunky-swatches button[aria-pressed=true] { outline: 1px solid var(--forest); }
+@keyframes flavor-in { from { opacity: 0; transform: translateX(35px) rotate(3deg); } to { opacity: 1; transform: none; } }
+
+.closing-statement { position: relative; min-height: 720px; background: var(--mint); overflow: hidden; text-align: center; padding-top: 65px; }
+.closing-statement h2 { font-size: 72px; line-height: .97; font-weight: 500; }
+.closing-statement h2 > span { color: #9aae7c; }
+.closing-statement > .pill { margin-top: 25px; }
+.delivery-note { position: absolute; left: 7%; top: 35px; transform: rotate(-8deg); font-size: 25px; text-align: left; }
+.payment-orbit { position: relative; width: 114%; left: -7%; display: flex; align-items: flex-start; justify-content: space-between; margin-top: 45px; height: 300px; }
+.payment-bubble { position: relative; width: 150px; height: 150px; flex-shrink: 0; border-radius: 50%; background: var(--white); display: flex; align-items: center; justify-content: center; }
+.payment-bubble > img { width: 62%; height: 55%; object-fit: contain; }
+.payment-bubble:nth-child(2),.payment-bubble:nth-child(6) { transform: translateY(45px); }
+.payment-bubble:nth-child(3),.payment-bubble:nth-child(5) { transform: translateY(90px); }
+.payment-bubble:nth-child(4) { transform: translateY(120px); }
+.pay-amex b { background: #0672b5; color: white; padding: 6px; font-size: 27px; line-height: .82; }
+.pay-mastercard i { position: absolute; width: 45px; height: 45px; border-radius: 50%; top: 41px; background: #e52128; left: 37px; }
+.pay-mastercard i+i { background: #f4a719; left: 68px; opacity: .85; }
+.pay-mastercard small { margin-top: 58px; color: #111; font-size: 11px; }
+.pay-paypal strong { color: #08649c; font-size: 27px; font-style: italic; letter-spacing: -1px; }
+.pay-apple strong { font-size: 23px; color: #111; letter-spacing: -1px; }
+.pay-google strong { color: #444; font-size: 26px; font-weight: 400; }
+.pay-google b { color: #4285f4; font-weight: 600; }
+.pay-visa strong { font-size: 33px; color: #173a77; font-style: italic; }
+.pay-klarna strong { background: #f3b5cd; color: #111; font-size: 23px; padding: 8px; }
+.shipping-note { display: block; text-align: right; margin: 5px 9% 0 0; transform: rotate(-7deg); font-size: 25px; }
+.payment-preview-note { display: block; margin: 25px 0; font-size: 8px; opacity: .55; }
+
+.reference-footer { background: var(--mint); padding: 70px 4% 0; overflow: hidden; }
+.reference-closing { position: relative; padding: 0; gap: 0; grid-template-columns: 48% 52%; background: transparent; z-index: 2; }
+.reference-closing .closing-product { min-height: 650px; padding: 40px 20px 20px; background: #97a68b; }
+.reference-closing .closing-product h2 { font-size: 94px; line-height: .84; font-weight: 700; margin: 0; }
+.footer-packshots { position: relative; height: 330px; margin-top: 17px; }
+.footer-tall { position: absolute; width: 22%; left: 20%; top: 0; }
+.footer-short { position: absolute; width: 20%; left: 54%; top: 27px; transform: scaleY(.72); transform-origin: bottom; }
+.reference-closing .closing-product > .pill { position: absolute; bottom: 21px; left: 50%; transform: translateX(-50%); }
+.reference-closing .closing-copy { padding: 0 0 0 22%; }
+.footer-shop-tiles { display: flex; gap: 12px; }
+.footer-shop-tiles > button { background: var(--white); width: 112px; height: 130px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 13px; }
+.footer-shop-tiles svg { color: #9aae7c; }
+.footer-shop-tiles span { font-family: var(--font-heading); font-size: 17px; font-weight: 600; line-height: .95; }
+.reference-closing .footer-details { margin-top: 65px; gap: 12px; }
+.reference-closing .footer-details h2 { font-size: 43px; line-height: 1; font-weight: 500; margin-bottom: 20px; }
+.reference-closing .footer-details h2 > span { color: #9aae7c; }
+.reference-closing .footer-details > button { width: 165px; font-size: 11px; text-decoration: underline; }
+.reference-footer .footer { background: transparent; padding: 0; margin-top: -200px; }
+.reference-footer .footer-brand { width: 104%; margin: 0 0 -20px -2%; }
+.reference-footer .footer-bottom { background: var(--mint); padding-top: 12px; }
+.webgl-unavailable.product-canvas { position: absolute; top: 0; }
+.product-fallback.fallback-photo { aspect-ratio: 576/1213; height: auto; padding: 0; border-radius: 0; background: none; box-shadow: none; overflow: hidden; }
+.fallback-photo > img { position: absolute; max-width: none; width: 277.78%; height: 131.9%; left: -87.5%; top: -16.16%; object-fit: fill; }
+
+@media(max-width:1000px) and (min-width:700px){
+  .photo-stack{height:430px}.photo-one{height:350px}.photo-two{height:340px}.photo-three{height:390px}.ritual-copy .community-lead{font-size:25px}.ritual-copy>p:not(.community-lead){font-size:17px}.community-actions{gap:10px}.community-actions>a{gap:4px}.community-actions small{font-size:7px}
+  .benefit-panel{min-height:300px;padding-inline:16px}.benefit-panel h2{font-size:58px}.benefit-panel p{font-size:19px}.comparison-content{padding-inline:9%}.comparison-content h2{font-size:51px}.comparison-table{font-size:16px}
+  .reviews-secondary{margin-top:250px}.review-card{padding:23px}.review-card blockquote{font-size:19px}.chunky-section{min-height:1000px}.chunky-composition{height:600px}.chunky-matcha{top:130px;width:37%}.chunky-pair{top:170px;width:37%;right:2%}.chunky-note{font-size:22px}.chunky-choice{bottom:0}.chunky-plus{top:240px}
+  .payment-bubble{width:125px;height:125px}.pay-mastercard i{left:25px;top:30px}.pay-mastercard i+i{left:57px}.reference-closing .closing-product{min-height:570px}.reference-closing .closing-product h2{font-size:75px}.reference-closing .closing-copy{padding-left:15%}.footer-shop-tiles>button{width:92px;height:115px}.reference-closing .footer-details h2{font-size:36px}.footer-tall{width:31%;left:15%}.footer-short{width:27%;left:54%;top:30px}.reference-footer .footer{margin-top:-160px}
+}
+@media(max-width:699px){
+  .ritual{padding-bottom:50px}.ritual-content{display:flex;padding:65px 7% 20px;gap:55px}.photo-stack{height:370px;width:100%;margin:0}.photo-one{left:-11%;top:45px;width:45%;height:300px}.photo-two{left:18%;top:95px;width:46%;height:280px}.photo-three{left:48%;top:0;width:49%;height:320px}.ritual-copy{padding:0;margin:0;max-width:none}.ritual-copy .community-lead{font-size:28px;max-width:350px}.ritual-copy>p:not(.community-lead){font-size:19px;max-width:330px}.community-actions{gap:18px}.ritual-sign{margin-top:65px;font-size:23px}
+  .benefits-scroll{height:400svh}.benefit-panel{width:65%;min-height:205px;padding:28px 18px 22px}.benefit-panel h2{font-size:44px}.benefit-panel p{font-size:17px;line-height:1.1;margin-top:17px}.benefit-one,.benefit-three{right:5%}.benefit-two,.benefit-four{left:5%}.benefit-panel .handwritten{font-size:20px;bottom:-32px}.benefit-orbit{width:180%;height:110%;left:-55%;top:5%}.benefit-finale{top:16%}.benefit-finale h2{font-size:53px}.flavor-preview h3{top:34%;font-size:41px}.preview-ingredients{width:170%;left:-35%;height:60%;top:40%}.preview-vanilla,.preview-strawberry{font-size:18px;top:55%}.preview-vanilla{left:5%}.preview-strawberry{right:4%}.preview-vanilla>span,.preview-strawberry>span{font-size:35px}
+  .comparison{grid-template-columns:1fr}.ingredient-photo{height:390px}.comparison-content{padding:55px 8% 65px}.comparison-content h2{font-size:52px;margin-bottom:38px}.comparison-table{font-size:17px}.comparison-table tbody th,.comparison-table td{padding:14px 0}
+  .reviews{min-height:1020px}.reviews-content{padding:70px 0 50px}.reviews h2{font-size:83px}.reviews-secondary{font-size:28px;margin-top:240px}.review-cards{width:100%;padding:0 8%;margin:25px 0 0;min-height:250px;gap:0}.review-card{display:none;flex:0 0 100%;padding:27px;min-height:250px}.review-card.active{display:block;max-width:none}.review-card blockquote{font-size:23px}.reviews-background{object-position:center}
+  .chunky-section{min-height:960px;padding:55px 5% 40px}.chunky-heading>h2{font-size:70px}.chunky-heading>h3{font-size:28px;margin-top:17px}.chunky-heading>p{font-size:16px;margin-top:15px}.chunky-composition{height:665px;margin-top:35px}.chunky-note{font-size:21px;left:5%;top:0}.chunky-note>span{font-size:38px}.chunky-matcha{left:1%;width:48%;top:130px;height:350px}.matcha-main{width:57%}.matcha-sachet{width:50%}.sachet-left{top:45px}.sachet-middle{top:23px;left:21%}.chunky-pair{width:47%;right:0;top:245px;height:250px}.chunky-main{top:50px;width:95%}.chunky-sachet-one{top:-8px}.chunky-sachet-two{top:7px}.chunky-plus{top:275px;left:48%;font-size:47px}.chunky-choice{bottom:0;left:45%;width:260px}.chunky-choice h3{font-size:32px;margin-bottom:16px}.chunky-controls{right:0;bottom:112px;gap:7px}.chunky-controls .circle-button{width:36px;height:36px}.chunky-swatches{right:2%;bottom:74px;gap:8px}.chunky-price{font-size:8px}
+  .closing-statement{min-height:615px;padding-top:80px}.closing-statement h2{font-size:51px}.delivery-note{left:7%;top:20px;font-size:20px}.payment-orbit{width:800px;left:calc(50% - 400px);height:250px;margin-top:40px}.payment-bubble{width:93px;height:93px}.payment-bubble:nth-child(2),.payment-bubble:nth-child(6){transform:translateY(30px)}.payment-bubble:nth-child(3),.payment-bubble:nth-child(5){transform:translateY(60px)}.payment-bubble:nth-child(4){transform:translateY(80px)}.pay-apple strong{font-size:16px}.pay-paypal strong{font-size:21px}.pay-google strong{font-size:22px}.pay-visa strong{font-size:25px}.pay-klarna strong{font-size:17px}.pay-mastercard i{width:32px;height:32px;left:19px;top:25px}.pay-mastercard i+i{left:41px}.pay-mastercard small{font-size:8px;margin-top:45px}.pay-amex b{font-size:21px}.shipping-note{font-size:22px;margin-top:-25px}.payment-preview-note{font-size:7px;margin-top:25px}
+  .reference-footer{padding:45px 7% 0}.reference-closing{grid-template-columns:1fr;gap:40px}.reference-closing .closing-product{min-height:575px;padding:35px 15px 20px}.reference-closing .closing-product h2{font-size:79px}.footer-packshots{height:295px;margin-top:15px}.footer-tall{width:41%;left:8%}.footer-short{width:35%;left:54%;top:47px}.reference-closing .closing-copy{padding:0 3%;max-width:none}.footer-shop-tiles>button{width:110px;height:120px}.reference-closing .footer-details{margin-top:36px}.reference-closing .footer-details h2{font-size:39px}.reference-footer .footer{margin-top:40px}.reference-footer .footer-brand{margin-bottom:-2px}.reference-footer .footer-bottom{padding:15px 0 20px;font-size:6px}
+  .preview-cookie-large{width:115px;left:-45px;top:48%}.preview-cookie-small{width:62px;left:8%;top:74%}.preview-berry-small{width:65px;right:10%;top:57%}.preview-berry-large{width:130px;right:-55px;top:76%}
+}
+@media(prefers-reduced-motion:reduce){
+  .benefits-scroll{height:auto}.benefits-stage{height:auto;min-height:0;overflow:visible}.benefit-panel{position:relative;top:auto;left:auto;right:auto;width:min(540px,90%);margin:65px auto;transform:none!important}.benefit-finale{position:relative;top:auto;inset:auto;margin:70px auto 25px}.flavor-preview{position:relative;height:450px;opacity:1;visibility:visible}.flavor-preview h3{top:0}.preview-ingredients{top:12%}.chunky-pair{animation:none}.reference-footer .footer{margin-top:30px}
+}

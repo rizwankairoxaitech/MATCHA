@@ -1,0 +1,100 @@
+/* Reference composition: measurements use the visible viewport, independent of the scroll runway. */
+.journey { overflow-x: clip; }
+/* The ribbon's crest sits just below the product, so the hero runs into it like the reference. */
+.hero {
+  height: calc(108svh + 19.55vw);
+  min-height: 740px;
+  overflow: hidden;
+}
+.header { height: 72px; padding-inline: 3.4%; }
+.header nav { gap: 23px; font-size: 11px; }
+.header .socials { gap: 6px; }
+.header .socials button { width: 25px; height: 25px; }
+.header .pill { min-height: 30px; padding-block: 4px; font-size: 11px; }
+.header .pill-icon { width: 21px; height: 21px; }
+.hero-wordmark {
+  position: absolute;
+  top: 11.5svh;
+  left: 23%;
+  width: 54%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  overflow: visible;
+  z-index: 7;
+}
+.hero-shop {
+  top: calc(11.5svh + 18.15vw + 24px);
+  left: 50%;
+}
+.hero-copy { top: 60svh; left: 67%; width: 29%; }
+.hero-copy > .eyebrow, .hero-copy .text-link, .hero-bottom { display: none; }
+.hero-copy h1 {
+  font-size: clamp(60px, min(7.1vw, 11.2svh), 112px);
+  line-height: .88;
+  letter-spacing: -.035em;
+}
+.hero-copy p { max-width: 290px; margin: 17px 0 0; font-size: 12px; line-height: 1.5; }
+.hero-note { top: 63svh; left: 3.8%; font-size: 22px; transform: rotate(-7deg); }
+.hero-note svg { width: 48px; height: 56px; margin: 10px 0 0 -2px; }
+/* The ring stretches with this box (preserveAspectRatio none), so badge centres stay on the line at any viewport. */
+.hero-orbit-wrap { top: 55svh; left: 0; width: 60%; height: 100svh; }
+.hero-orbit-wrap > .orbit { transform: none; }
+.hero-orbit { overflow: visible; }
+.hero-orbit-wrap .nutrition-badge { width: clamp(84px, min(8.6vw, 15svh), 128px); height: clamp(84px, min(8.6vw, 15svh), 128px); translate: -50% -50%; }
+.hero-orbit-wrap .nutrition-badge strong { font-size: clamp(32px, min(3.5vw, 6svh), 50px); }
+.hero-orbit-wrap .nutrition-badge span { font-size: 11px; }
+.hero-orbit-wrap .badge-0 { left: 35%; top: 9.1%; }
+.hero-orbit-wrap .badge-1 { left: 22.5%; top: 20.8%; }
+.hero-orbit-wrap .badge-2 { left: 14.2%; top: 36.1%; }
+
+/* Above the sticky product canvas (z-index 5): the bottle slides behind the ribbon, never over it. */
+.ritual { height: auto; min-height: 0; overflow: visible; padding-top: 75px; z-index: 6; }
+.ribbon { top: -20vw; left: -4%; width: 108%; height: auto; transform: none; z-index: 1; pointer-events: none; }
+.ribbon svg { display: block; overflow: visible; }
+.ritual-title { position: relative; z-index: 2; margin: 0 auto; max-width: 750px; text-align: center; font-size: clamp(42px, 4.3vw, 64px); line-height: 1; letter-spacing: -.045em; }
+.ritual-title span { color: #9aae7c; }
+.ritual-content { position: relative; z-index: 2; height: auto; max-width: 1250px; padding: 90px 7% 105px; gap: 12%; }
+.ritual-copy h3 { font-family: var(--font-heading); font-size: clamp(36px, 3.7vw, 54px); font-weight: 600; line-height: 1; letter-spacing: -.035em; margin: 15px 0 22px; }
+.ritual-copy p { font-size: 13px; }
+
+@media (max-width: 1000px) and (min-width: 700px) {
+  .header { padding-inline: 4%; }
+  .hero-copy { left: 66%; width: 31%; }
+  .hero-copy h1 { font-size: clamp(55px, min(8.2vw, 11.2svh), 90px); }
+  .hero-copy p { font-size: 11px; max-width: 230px; }
+  .hero-note { font-size: 20px; left: 3%; }
+  .ritual-content { padding-inline: 8%; }
+}
+
+@media (max-width: 699px) {
+  .hero { height: calc(100svh + 110px); min-height: 960px; }
+  .header { height: 70px; padding-inline: 6%; }
+  .header nav { gap: 22px; }
+  .header .pill { font-size: 10px; }
+  .hero-wordmark { top: 10svh; left: 7%; width: 86%; margin: 0; }
+  .hero-shop { top: calc(10svh + 28.9vw + 20px); }
+  .hero-copy { top: 47svh; left: 54%; width: 43%; }
+  .hero-copy h1 { font-size: clamp(44px, 13.5vw, 76px); line-height: .87; }
+  .hero-copy p { font-size: 10px; line-height: 1.5; max-width: 165px; margin-top: 15px; }
+  .hero-note { top: 36svh; left: 8%; font-size: 20px; }
+  .hero-note svg { width: 55px; height: 45px; margin-left: 20px; }
+  .hero-orbit-wrap { top: 42svh; left: -25%; width: 104%; height: 60svh; }
+  .hero-orbit-wrap .nutrition-badge { width: 57px; height: 57px; translate: none; }
+  .hero-orbit-wrap .nutrition-badge strong { font-size: 25px; }
+  .hero-orbit-wrap .nutrition-badge span { font-size: 8px; }
+  .hero-orbit-wrap .badge-0 { left: 33%; top: 75%; }
+  .hero-orbit-wrap .badge-1 { left: 60%; top: 75%; }
+  .hero-orbit-wrap .badge-2 { left: 87%; top: 75%; }
+  .ritual { padding-top: 45px; }
+  .ribbon { width: 150%; left: -25%; top: -16vw; }
+  .ritual-title { font-size: 42px; padding-inline: 7%; }
+  .ritual-content { padding: 65px 8% 70px; gap: 40px; }
+  .ritual-copy h3 { font-size: 43px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-wordmark .brand-reveal-finish { opacity: 1; }
+  .hero-wordmark .brand-letter { transform: none; }
+  .hero-wordmark .brand-symbol path { stroke-dasharray: none; stroke-dashoffset: 0; }
+}
